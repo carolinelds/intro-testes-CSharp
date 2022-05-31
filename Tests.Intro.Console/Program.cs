@@ -4,4 +4,5 @@ using Tests.Intro;
 //Console.WriteLine(AreaCirculo.Calculo(2));
 //Console.WriteLine(Media.Simples(5, 6, 7));
 //Console.WriteLine(String.IsNullOrEmpty(null));
-Console.WriteLine(Criptografia.Criptografar("Texto #3"));
+//Console.WriteLine(Criptografia.Criptografar("Texto #3"));
+Console.WriteLine(DDDs.ChecaDDD(11));
