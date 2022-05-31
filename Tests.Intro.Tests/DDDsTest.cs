@@ -16,7 +16,7 @@ namespace Tests.Intro.Tests
         [InlineData(0)]
         [InlineData(9)]
         [InlineData(100)]
-        public void Quando_PassaValorInvalido_Deve_RetornarExcecao(int num)
+        public void Quando_PassadoValorInvalido_Deve_RetornarExcecao(int num)
         {
             string msgEsperada = "DDD inválido.";
 
@@ -34,7 +34,7 @@ namespace Tests.Intro.Tests
         [InlineData(32, "Juiz de Fora")]
         [InlineData(61, "Brasília")]
         [InlineData(71, "Salvador")]
-        public void Quando_PassaValorValido_Deve_RetornarCidade(int num, string esperado)
+        public void Quando_PassadoValorValido_Deve_RetornarCidade(int num, string esperado)
         {
             string resultado = DDDs.ChecaDDD(num);
 
@@ -47,7 +47,7 @@ namespace Tests.Intro.Tests
         [InlineData(22)]
         [InlineData(23)]
         [InlineData(54)]
-        public void Quando_PassaValorInvalido_Deve_RetornarNaoEncontrado(int num)
+        public void Quando_PassadoValorDDDInvalido_Deve_RetornarNaoEncontrado(int num)
         {
             string msgEsperada = "DDD não encontrado";
 
