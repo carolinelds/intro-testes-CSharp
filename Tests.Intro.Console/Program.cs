@@ -6,4 +6,5 @@ using Tests.Intro;
 //Console.WriteLine(String.IsNullOrEmpty(null));
 //Console.WriteLine(Criptografia.Criptografar("Texto #3"));
 //Console.WriteLine(DDDs.ChecaDDD(11));
-Console.WriteLine(Flores.IsTautograma("Isso não é um Tautograma"));
+//Console.WriteLine(Flores.IsTautograma("Isso não é um Tautograma"));
+Console.WriteLine(Populacao.CalculaCrescimento(123, 2000, 3.0, 2.0));
